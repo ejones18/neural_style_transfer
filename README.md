@@ -1,4 +1,4 @@
-# google_magenta_example
+# A brief introduction to neural style transfer
 
 A Python module to explore the neural style transfer capabilities of Google Magneta.
 
@@ -44,9 +44,12 @@ Ethan Jones, 2021-08-31
 
 ## What is Magenta?
 
-Magenta is a research project exploring the role of machine learning in the process of creating art and music.
+Google Magenta is the model we'll use to apply the style transfer without having to train our own - we'll make use of the version on [TensorFlow Hub](https://www.tensorflow.org/hub).
+Magenta is a open-source research project exploring the role of machine learning in the process of creating art and music.
 
 Explore Magenta further - [Project website](https://magenta.tensorflow.org/)
+
+Magenta repo - [Github repo](https://github.com/magenta/magenta)
 
 ## What is neural style transfer?
 
