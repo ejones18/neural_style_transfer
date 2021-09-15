@@ -10,9 +10,11 @@ def parse_options():
     parser = argparse.ArgumentParser(description=("This is the CLI for the google_magenta_example module"),
                                      epilog="Ethan Jones, 2021-08-31")
     parser.add_argument("-c", "--content-image", dest="content_img", action="store", type=str,
-                        required=True)
+                        required=True, metavar="</path/to/content-image>",
+                        help="Specify path to content image file.")
     parser.add_argument("-s", "--style-image", dest="style_img", action="store", type=str,
-                        required=True)
+                        required=True, metavar="</path/to/style-image>",
+                        help="Specify path to style image file.")
     options = parser.parse_args()
     return options
     
