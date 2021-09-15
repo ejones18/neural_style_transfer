@@ -59,6 +59,8 @@ This 'bottleneck' acts as the boundary between the encoding and decoding process
 the encoding process is where the style image is broken down to its features and the decoding process 
 is where the content image is built up using such features.
 
+For a deeper explanation of the archiecture - [Towards Data Science article](https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-neural-style-transfer-ef88e46697ee)
+
 ## Example output
 
 ![Example](./src/images/example.png)
