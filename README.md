@@ -53,7 +53,7 @@ Magenta repo - [Github repo](https://github.com/magenta/magenta)
 
 ## What is neural style transfer?
 
-Neural style transfer is a way of manipulating images or other media to alter the appearance to that of another image.
+Neural style transfer is a way of manipulating images or other media to alter their appearance to that of another image.
 
 The neural network takes two images as inputs (one referred to as the content image and the other as the style image) - the content image acts as the base image to which we'll apply the style from the style image.
 
