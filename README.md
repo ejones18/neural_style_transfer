@@ -61,13 +61,4 @@ is where the content image is built up using such features.
 
 ## Example output
 
-| ![Content image](./src/images/image1.jfif) |
-
-|:--:|
-
-|Content image|
-
-
-![Style image](./src/images/image2.jfif)
-
-![Output image](./src/images/generated_image.jpg)
+![Example](./src/images/example.png)
