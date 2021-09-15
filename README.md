@@ -42,7 +42,7 @@ optional arguments:
 Ethan Jones, 2021-08-31
 ```
 
-## What is Magneta?
+## What is Magenta?
 
 Magenta is a research project exploring the role of machine learning in the process of creating art and music.
 
