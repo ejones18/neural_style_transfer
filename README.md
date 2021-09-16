@@ -1,10 +1,36 @@
-# google_magenta_example
+# A brief introduction to neural style transfer
+
+## A little theory
+
+### What is neural style transfer?
+
+Neural style transfer is a way of manipulating images or other media to alter their appearance to that of another image.
+
+The neural network takes two images as inputs (one referred to as the content image and the other as the style image) - the content image acts as the base image to which we'll apply the style from the style image.
+
+As for the underlying network itself, the network contains a 'bottleneck' in the middle-most hidden layer. 
+This 'bottleneck' acts as the boundary between the encoding and decoding processes -
+the encoding process is where the style image is broken down to its features and the decoding process 
+is where the content image is built up using such features.
+
+For a deeper explanation of the archiecture - [Towards Data Science article](https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-neural-style-transfer-ef88e46697ee)
+
+### What is Magenta?
+
+Google Magenta is the model we'll use to apply the style transfer without having to train our own - we'll make use of the version on [TensorFlow Hub](https://www.tensorflow.org/hub).
+Magenta is a open-source research project exploring the role of machine learning in the process of creating art and music.
+
+Explore Magenta further - [Project website](https://magenta.tensorflow.org/)
+
+Magenta repo - [Github repo](https://github.com/magenta/magenta)
+
+## What does this repository contain?
 
 A Python module to explore the neural style transfer capabilities of Google Magneta.
 
 Developed and tested in Python 3.8
 
-## How do I get set up?
+### How do I get set up?
 
 Make sure you have Git installed - [Download Git](https://git-scm.com/downloads)
 
@@ -43,25 +69,6 @@ optional arguments:
 Ethan Jones, 2021-08-31
 ```
 
-## What is Magneta?
-
-Magenta is a research project exploring the role of machine learning in the process of creating art and music.
-
-Explore Magenta further - [Project website](https://magenta.tensorflow.org/)
-
-## What is neural style transfer?
-
-Neural style transfer is a way of manipulating images or other media to alter the appearance to that of another image.
-
-The neural network takes two images as inputs (one referred to as the content image and the other as the style image) - the content image acts as the base image to which we'll apply the style from the style image.
-
-As for the underlying network itself, the network contains a 'bottleneck' in the middle-most hidden layer. 
-This 'bottleneck' acts as the boundary between the encoding and decoding processes -
-the encoding process is where the style image is broken down to its features and the decoding process 
-is where the content image is built up using such features.
-
-For a deeper explanation of the archiecture - [Towards Data Science article](https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-neural-style-transfer-ef88e46697ee)
-
-## Example output
+### Example output
 
 ![Example](./src/images/example.png)
