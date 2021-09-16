@@ -27,17 +27,18 @@ Check that the installation was successful by running the following command from
 This will print the helper for the command line interface which can be useful for working interactively:
 
 ```
-usage: google_magenta_example.py [-h] -c </path/to/content-image> -s
-                                 </path/to/style-image>
+usage: google_magenta_example.py [-h] -c </path/to/content-image> -s </path/to/style-image> -o </path/to/output_file>
 
 This is the CLI for the google_magenta_example module
 
 optional arguments:
   -h, --help            show this help message and exit
   -c </path/to/content-image>, --content-image </path/to/content-image>
-                        Specify path to content image file.
+                        Specify path to content image file - including file extension.
   -s </path/to/style-image>, --style-image </path/to/style-image>
-                        Specify path to style image file.
+                        Specify path to style image file - including file extension.
+  -o </path/to/output_file>, --output_file </path/to/output_file>
+                        Specify path to output file - including .jpg extension.
 
 Ethan Jones, 2021-08-31
 ```
