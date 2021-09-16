@@ -44,7 +44,7 @@ Install Python - [Download Python](https://www.python.org/downloads/)
 >> pip install -r requirements.txt
 ```
 
-Check that the installation was successful by running the following command from terminal / command-line:
+Check that the installation was successful by running the following command from terminal / command-line in the src directory:
 
 ```
 >> python .\google_magenta_example.py -h
