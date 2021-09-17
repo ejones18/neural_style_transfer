@@ -69,6 +69,6 @@ optional arguments:
 Ethan Jones, 2021-08-31
 ```
 
-### Example output
+### Example style transfer
 
 ![Example](./src/images/example.png)
