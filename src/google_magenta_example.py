@@ -26,10 +26,20 @@ def parse_options():
     options = parser.parse_args()
     return options
 
-def main(content_img_path, style_img_path, output_file_path):
+def main(content_img_path : str, style_img_path : str, output_file_path : str):
     """
     Load the content and style images and then restructure the content image based on the features
     of the style image using the Google Magenta model from tensorflowhub.
+    
+    Parameters
+    ----------
+    
+    `content_img_path` : str
+        The file path to the content image.
+    `style_img_path` : str
+        The file path to the style image.
+    `output_file_path` : str
+        The file path to where the output image should be saved.
     """
     # Load content and style images
     content_image = plt.imread(content_img_path)
